@@ -1,0 +1,18 @@
+1.  os.environ
+
+2.  QUERY_STRING
+
+3.  HTTP_USER_AGENT
+
+4.  The web browser sends a POST request to the web server with the form data.
+    The requests body contains username=USERNAME_STRING&password=PASSWORD_STRING
+    server side cgi.FieldStorage object has the ability to have text forms with cgi.FieldStorage.getfirst()
+
+5.  Set-Cookie: username=USERNAME_STRING
+
+6.  Cookie: username=USERNAME_STRING; password=PASSWORD_STRING
+
+7.  Cookies are used to store information locally on a users browser over
+    multiple connections and/or GET requests.
+
+8.  https://github.com/Pegmode/cgi-lab
